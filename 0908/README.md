@@ -74,3 +74,4 @@ sha256sum -c && sudo bash install.sh
 ```
 
 ## 5. CloudPanel 접속
+여러 웹 구성 요소를 관리, 서버를 제어하고 관리할 수 있게 된다.
