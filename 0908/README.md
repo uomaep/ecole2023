@@ -18,10 +18,11 @@ sudo reboot
 ```shell
 sudo apt install cockpit
 ```
-#### 2. start service
+#### 2. service
 ```shell
-sudo systemctl enable cockpit
-sudo systemctl start cockpit
+sudo systemctl enable cockpit # enable은 부팅 시 service를 자동으로 시작하게 명령어
+sudo systemctl start cockpit # start는 service를 시작시키는 명령어
+sudo journalctl -u cockpit # service log를 확인하는 명령어
 ```
 
 #### 3. allow port
@@ -63,3 +64,5 @@ curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
 echo "3c30168958264ced81ca9b58dbc55b4d28585d9066b9da085f2b130ae91c50f6 install.sh" | \
 sha256sum -c && sudo bash install.sh
 ```
+
+## 5. CloudPanel 접속
