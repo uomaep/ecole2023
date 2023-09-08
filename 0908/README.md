@@ -1,9 +1,13 @@
 ## 1. Install Ubuntu
-- select language
-- set ip
-- configure storage
-- profile setup
-- package update
+#### 1. select language
+![image](https://github.com/uomaep/ecole2023/assets/114221785/1cd2e43c-6b56-405f-87c7-cf50829b29b7)
+#### 2. set ip
+![image](https://github.com/uomaep/ecole2023/assets/114221785/51f533bd-07e3-4149-9527-40957a93375b)
+#### 3. configure storage(boot 1G, swap 4G, 나머지)
+![image](https://github.com/uomaep/ecole2023/assets/114221785/934d784e-30b6-4534-b76d-b55eb9a434b2)
+#### 4. profile setup
+![image](https://github.com/uomaep/ecole2023/assets/114221785/95a95d5f-759c-4364-b050-6ac804e4b123)
+#### 5. package update
 ```shell
 sudo apt-get update
 sudo apt upgrade
@@ -56,6 +60,10 @@ sudo netplan apply
 - 확인하기
 ```shell
 ip addr
+```
+```shell
+sudo apt install net-tools
+ifconfig
 ```
 
 ## 4. Install CloudPanel with Mysql
