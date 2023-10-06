@@ -5,4 +5,5 @@
 - 반응형으로 만드는 것에만 집중했기 때문에 디자인적 요소들이 마음에 들지 않는 것이 많다.
 - 다음 목표는 디자인을 생각하고 있다.
 
-![image](https://github.com/uomaep/ecole2023/assets/114221785/e136c0a1-4717-49f1-93c1-53e24d9cf68a)
+![image](https://github.com/uomaep/ecole2023/assets/114221785/f21dbed9-4605-455a-b23a-95b203a37840)
+
